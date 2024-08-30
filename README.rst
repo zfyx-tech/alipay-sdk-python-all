@@ -1,9 +1,7 @@
 alipay-sdk-python
 ==================
 
-请使用alipay官方版本
-==================
-本版本是因为，要解决 `iv` 转换成bytes，解密才出现的，感谢
+注意！请使用官方版本，本版本用来解决，iv，bytes问题
 
 The official Alipay SDK for Python.
 
