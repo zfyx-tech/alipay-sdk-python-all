@@ -31,7 +31,7 @@ def aes_encrypt_content(content, encrypt_key, charset):
     padded_content = pad(content, length)
     iv = '\0' * BLOCK_SIZE
     cryptor = AES.new(base64.b64decode(encrypt_key), AES.MODE_CBC, iv.encode('utf-8'))
-    encrypted_content = cryptor.encrypt(padded_content)
+    encrypted_content = cryptor.encrypt(padded_content.encode('utf-8'))
     encrypted_content = base64.b64encode(encrypted_content)
     if PYTHON_VERSION_3:
         encrypted_content = str(encrypted_content, encoding=charset)

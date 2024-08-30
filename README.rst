@@ -1,7 +1,10 @@
 alipay-sdk-python
 ==================
 
-注意！请使用官方版本，本版本用来解决，iv，bytes问题
+**注意！请使用官方版本** 
+**注意！请使用官方版本** 
+**注意！请使用官方版本** 
+**本版本主要用来解决 AES解密加密时，出现bytes问题**
 
 The official Alipay SDK for Python.
 
